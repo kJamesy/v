@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb95c8b1-a5fe-40ce-b3d5-1950d074cd7d" name="Default" comment="" />
+    <list default="true" id="bb95c8b1-a5fe-40ce-b3d5-1950d074cd7d" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22773558_10212164307957066_1178954938_n.jpg" afterPath="$PROJECT_DIR$/photos/unesco.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22790778_10212164308197072_1986585384_o.jpg" afterPath="$PROJECT_DIR$/photos/group.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22809813_10212164307837063_1409670178_n.jpg" afterPath="$PROJECT_DIR$/photos/carthage.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22812604_10212164307877064_1584338271_o.jpg" afterPath="$PROJECT_DIR$/photos/clare.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22831034_10212164305357001_1323623352_o.jpg" afterPath="$PROJECT_DIR$/photos/concordia.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22834399_10212164305196997_1962343543_n.jpg" afterPath="$PROJECT_DIR$/photos/africa.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22835263_10212164305116995_1367270001_n.jpg" afterPath="$PROJECT_DIR$/photos/intro.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22835356_10212164306157021_1139850934_n.jpg" afterPath="$PROJECT_DIR$/photos/clinton.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,27 +25,55 @@
     <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
     <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+              <folding>
+                <element signature="e#2299#2306#0" expanded="true" />
+                <element signature="e#2344#2351#0" expanded="true" />
+                <element signature="e#2398#2405#0" expanded="true" />
+                <element signature="e#2417#2424#0" expanded="true" />
+                <element signature="e#2527#2534#0" expanded="true" />
+                <element signature="e#2643#2650#0" expanded="true" />
+                <element signature="e#2652#2659#0" expanded="true" />
+                <element signature="e#2674#2681#0" expanded="true" />
+                <element signature="e#2745#2752#0" expanded="true" />
+                <element signature="e#3578#3585#0" expanded="true" />
+                <element signature="e#3585#3592#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22773558_10212164307957066_1178954938_n.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos/22773558_10212164307957066_1178954938_n.jpg">
+      <file leaf-file-name="clare.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clinton.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>untitl</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,6 +95,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -95,18 +135,24 @@
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="photos" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ada" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,11 +179,14 @@
       <workItem from="1509032163814" duration="164000" />
       <workItem from="1509035874708" duration="2807000" />
       <workItem from="1509098008569" duration="143000" />
+      <workItem from="1510761113605" duration="4711000" />
+      <workItem from="1511176850812" duration="1198000" />
+      <workItem from="1511270766129" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3114000" />
+    <option name="totallyTimeSpent" value="9195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -147,10 +196,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -177,11 +226,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22773558_10212164307957066_1178954938_n.jpg">
+    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -190,20 +256,233 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22773558_10212164307957066_1178954938_n.jpg">
+    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pic01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/carthage.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/intro.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/concordia.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22854874_10212164306077019_1532719070_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22813013_10212164308797087_249447360_o.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22811536_10212164306477029_1311577685_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22811477_10212164308157071_782905512_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22811389_10212164306117020_63398413_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22809734_10212164308037068_1471232631_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22782310_10212164304956991_1447501550_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22782069_10212164308437078_853144464_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22782305_10212164305877014_1339560910_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22773515_10212164306357026_526901464_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/22773445_10212164308597082_313167816_n.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/group.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/africa.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#2299#2306#0" expanded="true" />
+            <element signature="e#2344#2351#0" expanded="true" />
+            <element signature="e#2398#2405#0" expanded="true" />
+            <element signature="e#2417#2424#0" expanded="true" />
+            <element signature="e#2527#2534#0" expanded="true" />
+            <element signature="e#2643#2650#0" expanded="true" />
+            <element signature="e#2652#2659#0" expanded="true" />
+            <element signature="e#2674#2681#0" expanded="true" />
+            <element signature="e#2745#2752#0" expanded="true" />
+            <element signature="e#3578#3585#0" expanded="true" />
+            <element signature="e#3585#3592#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
