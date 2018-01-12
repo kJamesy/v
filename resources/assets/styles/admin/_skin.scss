@@ -1,0 +1,186 @@
+body {
+  background: $color_grey;
+  font-family: Calibri, sans-serif, arial;
+}
+
+#wp-auth-check-wrap #wp-auth-check {
+  width: $login_box_width;
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+  background-color: #0064A5;
+  background-image: linear-gradient(-180deg, #0063A3 0%, #00497F 100%);
+}
+#adminmenu li.wp-menu-separator {
+  background: $color_light_blue none repeat scroll 0 0;
+  cursor: inherit;
+  height: 1px;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.wp-admin #wpadminbar #wp-admin-bar-site-name > .ab-item::before {
+  content: none;
+}
+#wpadminbar, #wpadminbar .ab-sub-wrapper, #wpadminbar ul, #wpadminbar ul li, #wpadminbar .ab-top-menu > li.menupop.hover > .ab-item,
+#wpadminbar .ab-top-menu>li.menupop.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar.nojs .ab-top-menu>li.menupop:hover>.ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+  background: #0064A5;
+}
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus, #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a, #wpadminbar .quicklinks .menupop ul li a:focus,
+#wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong,
+#wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar li #adminbarsearch.adminbar-focused::before,
+#wpadminbar li .ab-item:focus::before, #wpadminbar li a:focus .ab-icon::before, #wpadminbar li.hover .ab-icon::before, #wpadminbar li.hover .ab-item::before,
+#wpadminbar li:hover #adminbarsearch::before, #wpadminbar li:hover .ab-icon::before, #wpadminbar li:hover .ab-item::before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover {
+  background: none;
+  color: $color_yellow;
+}
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top > a:focus,
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus,
+#adminmenu li a:focus div.wp-menu-image::before, #adminmenu li.opensub div.wp-menu-image::before, #adminmenu li:hover div.wp-menu-image::before,
+#adminmenu .current div.wp-menu-image::before, #adminmenu .wp-has-current-submenu div.wp-menu-image::before, #adminmenu a.current:hover div.wp-menu-image::before,
+#adminmenu a.wp-has-current-submenu:hover div.wp-menu-image::before, #adminmenu li.wp-has-current-submenu a:focus div.wp-menu-image::before,
+#adminmenu li.wp-has-current-submenu.opensub div.wp-menu-image::before, #adminmenu li.wp-has-current-submenu:hover div.wp-menu-image::before,
+#collapse-menu:hover, #collapse-menu:hover #collapse-button div::after {
+  color: $color_yellow;
+}
+#adminmenu li a:focus div.wp-menu-image::before, #adminmenu li.opensub div.wp-menu-image::before,
+#adminmenu li:hover div.wp-menu-image::before, #adminmenu .current div.wp-menu-image::before, #adminmenu .wp-has-current-submenu div.wp-menu-image::before,
+#adminmenu a.current:hover div.wp-menu-image::before, #adminmenu a.wp-has-current-submenu:hover div.wp-menu-image::before{
+  color: $color_yellow;
+}
+#wpadminbar, #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+  background-image: linear-gradient(-180deg, #0063A3 0%, #00497F 100%);
+}
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus {
+  background-color: #0064A5;
+}
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+  background: inherit;
+}
+#adminmenu li.menu-top:hover, #adminmenu li.opensub > a.menu-top, #adminmenu li > a.menu-top:focus {
+  background-image: linear-gradient(-180deg, #0063A3 0%, #00497F 100%);
+  color: $color_yellow;
+  position: relative;
+}
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover::after {
+  border-right-color: $color_white;
+}
+#wp-admin-bar-my-account > .ab-item > .avatar.photo {
+  display: none !important;
+}
+
+#dashboard-widgets .postbox-container {
+  width: 100% !important;
+}
+
+#update-nag, .update-nag {
+  display: none;
+}
+
+/** FORM ELEMENTS **/
+
+input, input[type="text"], input[type="search"], input[type="radio"], input[type="tel"], input[type="time"], input[type="url"], input[type="week"],
+input[type="password"], input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"],
+input[type="email"], input[type="month"], input[type="number"], select, textarea,
+.tablenav .tablenav-pages a {
+  background: $color_white;
+  border: 1px solid $color_darker_grey;
+  color: $color_darker_grey;
+}
+
+input:hover, input:focus, input:active,
+textarea:hover, textarea:focus, textarea:active,
+select:hover, select:focus, select:active {
+  border-color: $color_light_blue;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.wp-core-ui .button-primary,
+.page-title-action,
+.page-title-action:hover,
+.page-title-action:focus,
+.page-title-action:active {
+  background: $color_light_blue;
+  border-color: $color_white;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+
+  &:hover, &:focus, &:active {
+    color: $color_white;
+    border-color: $color_light_blue;
+    background: $color_light_blue;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.wp-core-ui .button-primary {
+  &:hover, &:focus, &:active {
+    border-color: $color_yellow;
+    background: $color_yellow;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+input[type="checkbox"]:checked::before {
+  color: $color_yellow;
+}
+
+input[type=text]:focus, input[type=search]:focus, input[type=radio]:focus, input[type=tel]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, input[type=password]:focus, input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, select:focus, textarea:focus {
+  color: $color_darker_grey;
+  border-color: $color_light_blue;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.wrap .add-new-h2, .wrap .page-title-action, .wrap .add-new-h2,
+.wrap .page-title-action, .tablenav .tablenav-pages a, .tablenav .tablenav-pages a, .tablenav .tablenav-pages a {
+  color: $color_white;
+  border-color: $color_light_blue;
+  background: $color_light_blue;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+
+  &:hover, &:focus, &:active {
+    border-color: $color_yellow;
+    background: $color_yellow;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+.wp-core-ui .button.button-primary.button-hero {
+  box-shadow: none;
+}

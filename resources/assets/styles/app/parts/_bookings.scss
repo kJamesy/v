@@ -1,0 +1,38 @@
+body.page-template-page-bookings {
+  .banner {
+    padding-top: 4em !important;
+  }
+
+  .content {
+    padding-top: 2.25rem !important;
+  }
+
+  p, form, label {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+
+  input, select, textarea {
+    font-size: 0.7rem;
+  }
+
+  input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select {
+    height: 1.8rem;
+  }
+
+  input[type="submit"], input[type="reset"], input[type="button"], button, .button,
+  input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
+    border-radius: 0;
+  }
+
+  .has-danger {
+    input, textarea {
+      border-color: #FF0000;
+    }
+  }
+
+  .text-danger {
+    color: #FF0000;
+  }
+
+}

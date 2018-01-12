@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url('../fonts/pt-sans/regular/PTS55F-webfont.eot');
+  src:  url('../fonts/pt-sans/regular/PTS55F-webfont.eot?#iefix') format('eot'),
+        url('../fonts/pt-sans/regular/PTS55F-webfont.woff') format('woff'),
+        url('../fonts/pt-sans/regular/PTS55F-webfont.ttf') format('truetype'),
+        url('../fonts/pt-sans/regular/PTS55F-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'PT Sans Italic';
+  src: url('../fonts/pt-sans/italic/PTS56F-webfont.eot');
+  src:  url('../fonts/pt-sans/italic/PTS56F-webfont.eot?#iefix') format('eot'),
+  url('../fonts/pt-sans/italic/PTS56F-webfont.woff') format('woff'),
+  url('../fonts/pt-sans/italic/PTS56F-webfont.ttf') format('truetype'),
+  url('../fonts/pt-sans/italic/PTS56F-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+  font-family: 'PT Sans Bold';
+  src: url('../fonts/pt-sans/bold/PTS75F-webfont.eot');
+  src:  url('../fonts/pt-sans/bold/PTS75F-webfont.eot?#iefix') format('eot'),
+  url('../fonts/pt-sans/bold/PTS75F-webfont.woff') format('woff'),
+  url('../fonts/pt-sans/bold/PTS75F-webfont.ttf') format('truetype'),
+  url('../fonts/pt-sans/bold/PTS75F-webfont.svg#webfont') format('svg');
+}
+
+$font_regular: 'PT Sans Regular', sans-serif, Arial;
+$font_italic: 'PT Sans Italic', sans-serif, Arial;
+$font_bold: 'PT Sans Bold', sans-serif, Arial;

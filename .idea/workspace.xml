@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb95c8b1-a5fe-40ce-b3d5-1950d074cd7d" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22773558_10212164307957066_1178954938_n.jpg" afterPath="$PROJECT_DIR$/photos/unesco.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22790778_10212164308197072_1986585384_o.jpg" afterPath="$PROJECT_DIR$/photos/group.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22809813_10212164307837063_1409670178_n.jpg" afterPath="$PROJECT_DIR$/photos/carthage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22812604_10212164307877064_1584338271_o.jpg" afterPath="$PROJECT_DIR$/photos/clare.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22831034_10212164305357001_1323623352_o.jpg" afterPath="$PROJECT_DIR$/photos/concordia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22834399_10212164305196997_1962343543_n.jpg" afterPath="$PROJECT_DIR$/photos/africa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22835263_10212164305116995_1367270001_n.jpg" afterPath="$PROJECT_DIR$/photos/intro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/photos/22835356_10212164306157021_1139850934_n.jpg" afterPath="$PROJECT_DIR$/photos/clinton.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="02f12a0f-700d-4388-a1f7-79c504ee1f2a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,39 +18,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/v/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="e#2299#2306#0" expanded="true" />
-                <element signature="e#2344#2351#0" expanded="true" />
-                <element signature="e#2398#2405#0" expanded="true" />
-                <element signature="e#2417#2424#0" expanded="true" />
-                <element signature="e#2527#2534#0" expanded="true" />
-                <element signature="e#2643#2650#0" expanded="true" />
-                <element signature="e#2652#2659#0" expanded="true" />
-                <element signature="e#2674#2681#0" expanded="true" />
-                <element signature="e#2745#2752#0" expanded="true" />
-                <element signature="e#3578#3585#0" expanded="true" />
-                <element signature="e#3585#3592#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clare.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/v/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clinton.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -69,8 +52,16 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>untitl</find>
+      <find>namespace MPP;</find>
+      <find>\MPP\</find>
+      <find>font</find>
+      <find>classie</find>
+      <find>transform</find>
     </findStrings>
+    <replaceStrings>
+      <replace>namespace Theme;</replace>
+      <replace>\Theme\</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,22 +69,77 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/plugins/v/options-screen.php" />
+        <option value="$PROJECT_DIR$/public/plugins/v/miscellaneous-functions.php" />
+        <option value="$PROJECT_DIR$/public/plugins/v/custom-tax.php" />
+        <option value="$PROJECT_DIR$/public/plugins/v/v.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/includes/admin-functions.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/includes/housekeeping.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/includes/utility-functions.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/functions.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/classes/Theme/Misc.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/style.css" />
+        <option value="$PROJECT_DIR$/public/themes/v/attachment.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/single-resources.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/search.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/image.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/classes/Theme/Search404.php" />
+        <option value="$PROJECT_DIR$/resources/assets/scripts/parts/html5StoryTheme/main.js" />
+        <option value="$PROJECT_DIR$/resources/assets/scripts/parts/codropsMenu/main.js" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/shared/shared-main.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/shared/_common.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/shared/common.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/app-main.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/admin.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/shared/_colors.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/admin/_skin.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/admin/_login.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/vendor/html5StoryTheme/sass/main.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/app.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/scripts/app.js" />
+        <option value="$PROJECT_DIR$/resources/assets/vendor/html5StoryTheme/js/main.js" />
+        <option value="$PROJECT_DIR$/public/themes/v/classes/Theme/Menu.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/resources/assets/vendor/codropsMenu/css/menu_topexpand.css" />
+        <option value="$PROJECT_DIR$/public/themes/v/footer.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/page-bio.php" />
+        <option value="$PROJECT_DIR$/resources/assets/vendor/codropsMenu/js/main.js" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/parts/_gallery.scss" />
+        <option value="$PROJECT_DIR$/public/themes/v/page-gallery.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/page-home.php" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/parts/_links.scss" />
+        <option value="$PROJECT_DIR$/public/themes/v/page-links.php" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/parts/_home.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/parts/parts.scss" />
+        <option value="$PROJECT_DIR$/public/themes/v/classes/Theme/Subscribe.php" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/parts/_bookings.scss" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/app/common/common.scss" />
+        <option value="$PROJECT_DIR$/public/themes/v/page-bookings.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/header.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/page.php" />
+        <option value="$PROJECT_DIR$/public/themes/v/index.php" />
+        <option value="$PROJECT_DIR$/public/.gitignore" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,48 +157,98 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="onano" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onano" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="photos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="onano2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onano2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ada" />
-    <property name="ignore_missing_gitignore" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
+    <property name="SearchEverywhereHistoryKey" value="webpack&#9;FILE&#9;file://C:/wamp/www/onano2/webpack.mix.js&#10;home.sc&#9;FILE&#9;file://C:/wamp/www/onano2/resources/assets/styles/app/parts/_home.scss&#10;common&#9;FILE&#9;file://C:/wamp/www/onano2/resources/assets/styles/app/common/common.scss&#10;footer&#9;FILE&#9;file://C:/wamp/www/onano2/public/themes/v/footer.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\onano2\resources\assets\styles\app\parts" />
+      <recent name="C:\wamp\www\onano2\public\themes\v" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,24 +265,25 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb95c8b1-a5fe-40ce-b3d5-1950d074cd7d" name="Default" comment="" />
-      <created>1509032161543</created>
+      <changelist id="02f12a0f-700d-4388-a1f7-79c504ee1f2a" name="Default" comment="" />
+      <created>1515514381621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509032161543</updated>
-      <workItem from="1509032163814" duration="164000" />
-      <workItem from="1509035874708" duration="2807000" />
-      <workItem from="1509098008569" duration="143000" />
-      <workItem from="1510761113605" duration="4711000" />
-      <workItem from="1511176850812" duration="1198000" />
-      <workItem from="1511270766129" duration="172000" />
+      <updated>1515514381621</updated>
+      <workItem from="1515514383368" duration="5983000" />
+      <workItem from="1515590587915" duration="18768000" />
+      <workItem from="1515664956249" duration="17653000" />
+      <workItem from="1515768605509" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9195000" />
+    <option name="totallyTimeSpent" value="46248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -194,12 +291,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -207,7 +306,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -222,267 +321,389 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/pic01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/carthage.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/intro.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/concordia.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/unesco.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22854874_10212164306077019_1532719070_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22813013_10212164308797087_249447360_o.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22811536_10212164306477029_1311577685_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22811477_10212164308157071_782905512_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22811389_10212164306117020_63398413_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22809734_10212164308037068_1471232631_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22782310_10212164304956991_1447501550_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22782069_10212164308437078_853144464_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22782305_10212164305877014_1339560910_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22773515_10212164306357026_526901464_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/22773445_10212164308597082_313167816_n.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/group.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/africa.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clare.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/clinton.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/resources/assets/scripts/parts/html5StoryTheme/main.js" />
+    <entry file="file://$PROJECT_DIR$/resources/assets/scripts/parts/codropsMenu/main.js" />
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/shared/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/shared/_common.scss" />
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/admin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="28" column="45" lean-forward="false" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/shared/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/shared/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/assets/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/assets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/admin/_skin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="163" column="1" lean-forward="false" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/admin/_login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/admin/admin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/shared/shared.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/classes/Theme/Misc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/vendor/html5StoryTheme/sass/libs/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/vendor/html5StoryTheme/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/vendor/html5StoryTheme/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/vendor/codropsMenu/css/menu_topexpand.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/classes/Theme/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="68" column="38" lean-forward="true" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="66" lean-forward="false" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
           <folding>
-            <element signature="e#2299#2306#0" expanded="true" />
-            <element signature="e#2344#2351#0" expanded="true" />
-            <element signature="e#2398#2405#0" expanded="true" />
-            <element signature="e#2417#2424#0" expanded="true" />
-            <element signature="e#2527#2534#0" expanded="true" />
-            <element signature="e#2643#2650#0" expanded="true" />
-            <element signature="e#2652#2659#0" expanded="true" />
-            <element signature="e#2674#2681#0" expanded="true" />
-            <element signature="e#2745#2752#0" expanded="true" />
-            <element signature="e#3578#3585#0" expanded="true" />
-            <element signature="e#3585#3592#0" expanded="true" />
+            <element signature="e#6#78#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/parts/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/parts/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page-links.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#74#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/parts/_links.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="55" lean-forward="false" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/vendor/codropsMenu/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/classes/Theme/Subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="102" column="26" lean-forward="false" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/common/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="80" column="3" lean-forward="false" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page-bio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/screenshot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/single-blog_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page-bookings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#80#0#PHP" expanded="false" />
+            <element signature="e#1914#1920#1#HTML" expanded="false" />
+            <element signature="e#2104#2110#1#HTML" expanded="false" />
+            <element signature="e#2614#2620#1#HTML" expanded="false" />
+            <marker date="1515770467745" expanded="true" signature="1745:4382" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="1779:4239" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="2019:2264" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="2388:2585" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="2735:4188" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="2858:3042" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="3158:3338" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="3445:3610" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="3719:3902" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="4024:4160" ph="..." />
+            <marker date="1515770467745" expanded="true" signature="4312:4382" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/parts/parts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/styles/app/parts/_bookings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="e#6#72#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/v/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

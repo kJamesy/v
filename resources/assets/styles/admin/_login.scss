@@ -1,0 +1,88 @@
+body.login {
+  background-color: $color_light_blue;
+  color: $color_darker_grey;
+  font-size: 14px;
+  font-family: $font_regular;
+
+  a, label {
+    color: $color_darker_grey !important;
+  }
+
+  form p:hover label, form p:focus label {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    color: $color_light_blue !important;
+  }
+
+  a:hover, a:focus, a:active {
+    color: $color_black !important;
+    outline: none;
+  }
+
+  #login {
+    width: $login_box_width;
+  }
+
+  h1 a {
+    display: none;
+    width: 206px;
+    height: 118px;
+    //background-image: url('../img/logo-MedicinesPatentPool.png');
+    background-size: 206px 118px;
+  }
+
+  input {
+    color: $color_darker_grey;
+    background: $color_white;
+    border: 1px solid $color_darker_grey;
+    font-size: 14px !important;
+
+    &:hover, &:focus, &:active {
+      border-color: $color_light_blue;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  form .input, input[type="text"] {
+    padding: 8px;
+  }
+
+  &.wp-core-ui .button-primary {
+    background: $color_light_blue;
+    border-color: $color_white;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+
+    &:hover, &:focus, &:active {
+      border-color: $color_light_blue;
+    }
+  }
+
+  p#backtoblog {
+    display: none;
+  }
+
+  #login_error, .message {
+    border-left: 0;
+    padding: 16px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: $color_light_blue;
+  }
+
+  #login_error {
+    color: $color_yellow;
+  }
+
+}
+

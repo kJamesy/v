@@ -1,0 +1,19 @@
+body.page-template-page-gallery {
+  &.show-menu .content-wrap {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+
+  .gallery.style1 {
+    width: 90%;
+    margin: 0 auto;
+
+    article {
+      margin: 5px;
+    }
+  }
+
+}
