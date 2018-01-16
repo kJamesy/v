@@ -64,19 +64,19 @@ if ( have_posts() ) :
                     <form method="post" action="<?php the_permalink(); ?>">
                         <div class="field half first <?= array_key_exists('first_name', $errors) ? 'has-danger' : ''; ?>">
                             <label for="first_name">First Name</label>
-                            <input name="first_name" id="first_name" type="text">
+                            <input name="first_name" id="first_name" type="text" value="<?= $first_name; ?>">
                         </div>
                         <div class="field half <?= array_key_exists('last_name', $errors) ? 'has-danger' : ''; ?>">
                             <label for="last_name">Last Name</label>
-                            <input name="last_name" id="last_name" type="text">
+                            <input name="last_name" id="last_name" type="text" value="<?= $last_name; ?>">
                         </div>
                         <div class="field <?= array_key_exists('email', $errors) ? 'has-danger' : ''; ?>">
                             <label for="email">Email</label>
-                            <input name="email" id="email" type="email">
+                            <input name="email" id="email" type="email" value="<?= $email; ?>">
                         </div>
                         <div class="field <?= array_key_exists('message', $errors) ? 'has-danger' : ''; ?>">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
+                            <textarea name="message" id="message" rows="4"><?= $message; ?></textarea>
                         </div>
                         <input type="hidden" name="isSubmitted" value="1" />
                         <ul class="actions">
