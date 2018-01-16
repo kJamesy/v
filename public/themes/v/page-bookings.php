@@ -23,7 +23,7 @@ if ( $isSubmitted ) {
 		$message = nl2br($message);
 		$subject = 'New Booking Message via the Website';
 		$htmlMessage = "<p><strong>First Name:</strong> $first_name</p>";
-		$htmlMessage = "<p><strong>Last Name:</strong> $last_name</p>";
+		$htmlMessage .= "<p><strong>Last Name:</strong> $last_name</p>";
 		$htmlMessage .= "<p><strong>Email:</strong> $email</p>";
 		$htmlMessage .= "<p><strong>Message:</strong> <br /> $message</p>";
 		\Theme\Subscribe::fireEmail(
