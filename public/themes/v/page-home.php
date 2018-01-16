@@ -6,13 +6,18 @@
 global $post;
 
 $bg_image = get_field('big_background_image');
-$quick_link = get_field('quick_link');
+$bg_images = get_field('big_background_images');
+
+$links = get_pages(['sort_column' => 'menu_order', 'exclude' => [$post->ID]]);
+$link_count = count($links);
+$last_link_index = $link_count - 1;
+$quick_link = null; //$links[0];
 
 get_header();
 
 if ( have_posts() ) :
     while (have_posts()) : the_post(); ?>
-        <section class="banner onload-image-fade-in onload-content-fade-left style2 fullscreen orient-center content-align-center image-position-center vbanner" id="top">
+        <section class="banner onload-image-fade-in onload-content-fade-left style1 fullscreen orient-center content-align-center image-position-center vbanner" id="top">
             <div class="content">
                 <h1><?php bloginfo('name'); ?></h1>
                 <p class="major"><?php bloginfo('description'); ?></p><?php
@@ -24,8 +29,22 @@ if ( have_posts() ) :
                 endif; ?>
             </div> <?php
             if ( $bg_image ) : ?>
-                <div class="image">
-                    <img src="<?= $bg_image; ?>" alt="<?php bloginfo('name'); ?>" />
+                <div class="image" id="home-slideshow"> <?php
+	                if ( $bg_images ) :
+                        foreach ( $bg_images as $key => $a_bg_image ) : ?>
+                            <div>
+                                <img src="<?= $a_bg_image['image']; ?>" alt="<?php bloginfo('name'); ?>" class="image-slideshow-item" /> <?php
+                                if ( ($key + 1) <= $link_count ) : ?>
+                                    <a href="<?= get_permalink($links[$key]->ID); ?>" class="quicklink-button button"><?= $links[$key]->post_title; ?></a> <?php
+                                else : ?>
+	                                <a href="<?= get_permalink($links[$last_link_index]->ID); ?>" class="quicklink-button button"><?= $links[$last_link_index]->post_title; ?></a> <?php
+                                endif; ?>
+                            </div>
+                            <?php
+                        endforeach;
+                    else : ?>
+                        <img src="<?= $bg_image; ?>" alt="<?php bloginfo('name'); ?>" /> <?php
+                    endif; ?>
                 </div> <?php
             endif; ?>
         </section><?php

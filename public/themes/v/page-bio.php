@@ -11,7 +11,7 @@ $quick_link = get_field('quick_link');
 $css_classes = [
         'banner onload-image-fade-in onload-content-fade-left style1 fullscreen orient-right content-align-left',
         'spotlight onscroll-image-fade-in invert style4 fullscreen orient-left content-align-left image-position-center',
-        'spotlight onscroll-image-fade-in style3 android orient-right content-align-left invert image-position-center',
+        'spotlight onscroll-image-fade-in style3 android orient-right content-align-left image-position-center',
     ];
 
 $bg_image = get_field('big_background_image');

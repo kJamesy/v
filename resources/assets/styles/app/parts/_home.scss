@@ -1,0 +1,36 @@
+body.home {
+  #home-slideshow {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
+    a {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      right: 40%;
+
+      &.quicklink-button {
+        color: $color_black;
+        background: $color_white;
+        border-radius: 0;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -ms-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+        font-family: $font-bold;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        border: none;
+
+        &:hover, &:focus, &:active {
+          color: $color_yellow;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          border: none;
+        }
+      }
+    }
+  }
+}
