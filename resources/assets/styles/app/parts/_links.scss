@@ -15,14 +15,27 @@ body.page-template-page-links {
     box-shadow: none;
 
     .gallery {
-      width: 90%;
+      width: 80%;
       margin: 0 auto;
+      margin-bottom: 5rem;
+    }
+
+    h2.breathe {
+      //margin-top: 1rem;
     }
   }
 
   @media( min-width: 801px ) {
     #section-1 {
       padding-top: 3.5rem;
+    }
+  }
+
+  @media( max-width: 991px ) {
+    .gallery {
+      &.style2 > .forward, &.style2 > .backward {
+        opacity: 1;
+      }
     }
   }
 
