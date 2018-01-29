@@ -19,9 +19,17 @@
 <body <?php body_class(); ?>>
 <!--<body class="show-menu">-->
 <!-- Analytics -->
-<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<?php 
+<!-- Google Analytics --><?php
 if ( strtolower(env('WP_ENV')) != 'local' ) : ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113220743-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113220743-1');
+    </script>
      <?php
 endif;
 $menu_page = \Theme\Misc::getMenuPage($post);
