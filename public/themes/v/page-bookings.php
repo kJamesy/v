@@ -83,7 +83,16 @@ if ( have_posts() ) :
                         <ul class="actions">
                             <li><input name="submit" id="submit" value="Send Message" type="submit"></li>
                         </ul>
-                    </form> <?php
+                    </form>
+                    <script>
+                        var submitBtn = document.getElementById("submit");
+                        if ( submitBtn )
+                            submitBtn.disabled = true;
+                        function enableSubmit() {
+                            if ( submitBtn )
+                                submitBtn.disabled = false;
+                        }
+                    </script><?php
                 endif; ?>
             </div> <?php
 	        if ( $bg_image ) : ?>
@@ -97,13 +106,3 @@ else :
     get_template_part('template-parts/content', 'none');
 endif;
 get_footer(); ?>
-
-<script type="text/javascript">
-    var submitBtn = document.getElementById("submit");
-    if ( submitBtn )
-        submitBtn.disabled = true;
-    function enableSubmit() {
-        if ( submitBtn )
-            submitBtn.disabled = false;
-    }
-</script>
