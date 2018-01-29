@@ -78,6 +78,7 @@ if ( have_posts() ) :
                             <label for="message">Message</label>
                             <textarea name="message" id="message" rows="4"><?= $message; ?></textarea>
                         </div>
+                        <div class="g-recaptcha" data-sitekey="<?= our_theme_get_google_recaptcha_site_key(); ?>" data-callback="enableSubmit"></div>
                         <input type="hidden" name="isSubmitted" value="1" />
                         <ul class="actions">
                             <li><input name="submit" id="submit" value="Send Message" type="submit"></li>
@@ -96,3 +97,13 @@ else :
     get_template_part('template-parts/content', 'none');
 endif;
 get_footer(); ?>
+
+<script type="text/javascript">
+    var submitBtn = document.getElementById("submit");
+    if ( submitBtn )
+        submitBtn.disabled = true;
+    function enableSubmit() {
+        if ( submitBtn )
+            submitBtn.disabled = false;
+    }
+</script>

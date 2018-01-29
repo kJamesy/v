@@ -51,7 +51,7 @@ add_action('wp_footer', 'our_theme_show_template');
  * @return string
  */
 function our_theme_get_google_recaptcha_site_key() {
-    return '6LdqlRAUAAAAACgscIrZjTb_hbbkNeOp50PDWfla';
+    return '6LcIG0MUAAAAAO7dbxgtB7Ki5oa1ZS8vOJJDNZKq';
 }
 
 /**
@@ -59,5 +59,5 @@ function our_theme_get_google_recaptcha_site_key() {
  * @return string
  */
 function our_theme_get_google_recaptcha_secret_key() {
-    return '6LdqlRAUAAAAACllKCQiPRp1kTq-yFeLzd1LLRhD';
+    return '6LcIG0MUAAAAAFTjNEXFDGhF-upQ4gehkNipPLgw';
 }

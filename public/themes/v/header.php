@@ -13,7 +13,8 @@
     <link rel="mask-icon" href="<?= get_stylesheet_directory_uri(); ?>/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="<?= mix('css/app.css') ?>">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.3/js/all.js"></script><?php
+    <script src='//www.google.com/recaptcha/api.js'></script>
+    <script defer src="//use.fontawesome.com/releases/v5.0.3/js/all.js"></script><?php
     wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
