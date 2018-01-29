@@ -2,6 +2,10 @@ body.home {
   #home-slideshow {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 
+    > div:not(:first-child) {
+      display: none;
+    }
+
     a {
       display: block;
       position: absolute;
