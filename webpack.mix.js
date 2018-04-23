@@ -15,7 +15,7 @@ mix.version();
 // mix.copy('resources/other-assets', `public/themes/${theme}/images`);
 
 mix.browserSync({
-    proxy: 'onano.app',
+    proxy: 'onano.jamesy',
     files: [
         `public/themes/${theme}/**/*.php`,
         `public/themes/${theme}/assets/**/*.js`,
