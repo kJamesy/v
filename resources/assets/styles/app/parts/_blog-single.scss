@@ -1,0 +1,58 @@
+body.single-blog_posts {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .spotlight {
+    .post-meta {
+      font-size: 0.7rem;
+      margin-bottom: 0.7rem;
+      color: #FEAB04;
+    }
+
+    .addthis_inline_share_toolbox {
+      margin-bottom: 1rem;
+      text-align: right;
+
+      &.bottom {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: left;
+      }
+    }
+
+    .content {
+      text-align: left;
+    }
+
+    .main-content {
+      font-size: 0.9rem;
+      color: #555;
+
+      @media( min-width: 992px ) {
+        font-size: 0.65rem;
+      }
+
+      p {
+        margin-bottom: 0.9rem;
+
+        @media( min-width: 992px ) {
+          margin-bottom: 0.65rem;
+        }
+      }
+    }
+    
+    .image {
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      
+      img {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+      }
+    }
+  }
+
+}
